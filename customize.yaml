@@ -1,0 +1,34 @@
+light.lamp:
+  homebridge_hidden: true
+light.main_light:
+  homebridge_hidden: true
+light.stairs:
+  homebridge_hidden: true
+light.lightstrip:
+  homebridge_hidden: true
+media_player.bedroom_speaker:
+  homebridge_hidden: true
+remote.toms_apple_tv_room:
+  homebridge_hidden: true
+media_player.toms_apple_tv_room:
+  homebridge_hidden: true
+group.all_devices:
+  homebridge_hidden: true
+group.all_lights:
+  homebridge_hidden: true
+group.all_remotes:
+  homebridge_hidden: true
+group.all_switches:
+  homebridge_hidden: true
+device_tracker.tom:
+  homebridge_hidden: true
+media_player.kd43xd8088:
+  homebridge_hidden: true
+media_player.soundbar:
+  homebridge_hidden: true
+media_player.living_room_speaker:
+  homebridge_hidden: true
+remote.toms_apple_tv_back:
+  homebridge_hidden: true
+media_player.toms_apple_tv_back:
+  homebridge_hidden: true
