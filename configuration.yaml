@@ -26,7 +26,7 @@ http:
   api_password: !secret api_password
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
-  base_url: !secret base_url
+  base_url: !secret http_base_url
 
 # Checks for available updates
 # Note: This component will send some information about your system to
