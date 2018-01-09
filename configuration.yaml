@@ -63,8 +63,9 @@ tts:
 # Cloud
 cloud:
 
-group: !include groups.yaml
 automation: !include automations.yaml
+group: !include groups.yaml
+scene: !include includes/scenes.yaml
 script: !include scripts.yaml
 zone: !include zones.yaml
 
@@ -73,6 +74,10 @@ panel_iframe:
     title: Configurator
     icon: mdi:wrench
     url: https://hassio.local:3218/
+  mdiindex:
+    title: MDI Icon Index
+    icon: mdi:vector-square
+    url: https://cdn.rawgit.com/james-fry/home-assistant-mdi/efd95d7a/home-assistant-mdi.html
     
 ios:
 
