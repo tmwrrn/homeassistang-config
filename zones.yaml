@@ -1,0 +1,20 @@
+#Home
+- name: Home
+  latitude: !secret latitude
+  longitude: !secret longitude
+  radius: 100
+  icon: mdi:home
+
+#Dad
+- name: Work
+  latitude: !secret dad_work_lat
+  longitude: !secret dad_work_long
+  radius: 250
+  icon: mdi:domain
+
+#Tom
+- name: Work
+  latitude: !secret tom_work_lat
+  longitude: !secret tom_work_long
+  radius: 250
+  icon: mdi:domain
