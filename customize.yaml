@@ -38,8 +38,10 @@ device_tracker.tom:
     homebridge_hidden: true
   light.bedroom:
     homebridge_hidden: true
+    hidden: true
   light.bedroom_2:
     homebridge_hidden: true
+    hidden: true
   media_player.bedroom_speaker:
     homebridge_hidden: true
   remote.toms_apple_tv_room:
