@@ -1,8 +1,10 @@
 default_view:
-    view: yes
-    entities:
-      - group.living
-      - group.bedroom
+  view: yes
+  entities:
+    - group.living
+    - group.bedroom
+    - group.kitchen
+    - group.family
 
 living:
   name: Living room
@@ -24,3 +26,15 @@ bedroom:
     - media_player.bedroom_speaker
     - media_player.toms_apple_tv_room
     - switch.electric_blanket
+    
+kitchen:
+  name: Kitchen
+  view: no
+  entities:
+    - media_player.kitchen
+    
+family:
+  name: Family Members
+  view: no
+  entities:
+    - device_tracker.tom
