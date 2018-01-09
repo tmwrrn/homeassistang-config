@@ -38,3 +38,5 @@ family:
   view: no
   entities:
     - device_tracker.tom
+    - device_tracker.andy
+    - device_tracker.bev
