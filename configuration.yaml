@@ -66,6 +66,7 @@ cloud:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+zone: !include zones.yaml
 
 panel_iframe:
   configurator:
