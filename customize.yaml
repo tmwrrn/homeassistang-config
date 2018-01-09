@@ -12,7 +12,7 @@ device_tracker.tom:
 #hallway
   light.stairs:
     homebridge_hidden: true
-    hidden: true;
+    hidden: true
   light.lightstrip:
     homebridge_hidden: true
     icon: mdi:led-strip
