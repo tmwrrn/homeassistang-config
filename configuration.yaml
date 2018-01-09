@@ -63,11 +63,11 @@ tts:
 # Cloud
 cloud:
 
-automation: !include automations.yaml
-group: !include groups.yaml
+automation: !include includes/automations.yaml
+group: !include includes/groups.yaml
 scene: !include includes/scenes.yaml
-script: !include scripts.yaml
-zone: !include zones.yaml
+script: !include includes/scripts.yaml
+zone: !include includes/zones.yaml
 
 panel_iframe:
   configurator:
@@ -92,3 +92,11 @@ apple_tv:
   - host: 192.168.0.32
     login_id: !secret apple_tv_login
     start_off: true
+
+hue:
+  bridges:
+    - host: 192.168.0.29
+      filename: phue.conf
+    - host: 192.168.0.12
+      filename: phue2.conf
+    - allow_hue_groups: false
