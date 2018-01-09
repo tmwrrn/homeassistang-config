@@ -1,0 +1,10 @@
+- name: Evening_TV
+  entities:
+    light.main_light: off
+    light.lamp: off
+
+- name: Evening_TV_paused
+  entities:
+    light.lamp:
+      state: on
+      brightness: 127.5
