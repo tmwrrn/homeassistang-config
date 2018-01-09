@@ -30,8 +30,6 @@ media_player.kitchen:
   homebridge_hidden: true
   
 #living room
-  group.living:
-    emulated_hue: true
   remote.toms_apple_tv_back:
     homebridge_hidden: true
   media_player.toms_apple_tv_back:
