@@ -8,6 +8,7 @@ group.all_switches:
   homebridge_hidden: true
 device_tracker.tom:
   homebridge_hidden: true
+  icon: !secret tom_img
 
 #hallway
   light.stairs:
