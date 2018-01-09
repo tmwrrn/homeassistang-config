@@ -12,8 +12,10 @@ device_tracker.tom:
 #hallway
   light.stairs:
     homebridge_hidden: true
+    hidden: true;
   light.lightstrip:
     homebridge_hidden: true
+    icon: mdi:led-strip
   
 #kitchen
   media_player.kitchen:
@@ -24,18 +26,23 @@ device_tracker.tom:
     homebridge_hidden: true
   media_player.toms_apple_tv_back:
     homebridge_hidden: true
+    icon: mdi:apple
   media_player.kd43xd8088:
     homebridge_hidden: true
+    icon: mdi:television
   media_player.soundbar:
     homebridge_hidden: true
   media_player.living_room_speaker:
     homebridge_hidden: true
+    icon: mdi:chart-bubble
     
 #bedroom
   light.lamp:
     homebridge_hidden: true
+    icon: mdi:lamp
   light.main_light:
     homebridge_hidden: true
+    icon: mdi:ceiling-light
   light.bedroom:
     homebridge_hidden: true
     hidden: true
@@ -44,7 +51,11 @@ device_tracker.tom:
     hidden: true
   media_player.bedroom_speaker:
     homebridge_hidden: true
+    icon: mdi:chart-bubble
   remote.toms_apple_tv_room:
     homebridge_hidden: true
   media_player.toms_apple_tv_room:
     homebridge_hidden: true
+    icon: mdi:apple
+  switch.electric_blanket:
+    iconL mdei:sleep
