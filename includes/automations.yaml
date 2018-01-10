@@ -1,1 +1,29 @@
-[]
+- alias: Turn on evening tv scene when apple tv is playing
+  initial_state: True
+  hide_entity: False
+  trigger:
+    platform: state
+    entity_id: media_player.apple_tv_2
+    to: 'playing'
+    from: 'paused'
+  condition:
+    condition: time
+    after: '19:00:00'
+  action:
+    service: scene.turn_on
+    entity_id: scene.evening_tv
+
+- alias: When ATV is playing then paused turn on evening scene
+  initial_state: True
+  hide_entity: False
+  trigger:
+    platform: state
+    entity_id: media_player.apple_tv_2
+    to: 'paused'
+    from: 'playing'
+  condition:
+    condition: time
+    after: '19:00:00'
+  action:
+    service: scene.turn_on
+    entity_id: scene.evening_tv_paused
