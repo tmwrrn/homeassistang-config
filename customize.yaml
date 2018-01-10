@@ -23,9 +23,10 @@ device_tracker.tom:
     icon: mdi:speaker-wireless
   
 #living room
-  remote.toms_apple_tv_back:
+  remote.apple_tv_2:
     homebridge_hidden: true
-  media_player.toms_apple_tv_back:
+  media_player.apple_tv_2:
+    friendly_name: Apple TV (Living Room)
     homebridge_hidden: true
     icon: mdi:apple
   media_player.kd43xd8088:
@@ -53,9 +54,10 @@ device_tracker.tom:
   media_player.bedroom_speaker:
     homebridge_hidden: true
     icon: mdi:speaker-wireless
-  remote.toms_apple_tv_room:
+  remote.apple_tv:
     homebridge_hidden: true
-  media_player.toms_apple_tv_room:
+  media_player.apple_tv:
+    friendly_name: Apple TV (Room)
     homebridge_hidden: true
     icon: mdi:apple
   switch.electric_blanket:
