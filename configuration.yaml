@@ -19,6 +19,8 @@ frontend:
 # Enables configuration UI
 config:
 
+mqtt:
+
 http:
   api_password: !secret api_password
   ssl_certificate: /ssl/fullchain.pem
@@ -81,9 +83,13 @@ panel_iframe:
     
 ios:
 
+device_tracker:
+  - platform: owntracks
+
 switch:
   - platform: tplink
     host: 192.168.0.37
+    name: "Electric Blanket"
     
 apple_tv:
   - host: 192.168.0.24
