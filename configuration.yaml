@@ -83,17 +83,11 @@ ios:
 
 device_tracker:
   - platform: owntracks
+    max_gps_accuracy: 200
 
 switch:
   - platform: tplink
     host: 192.168.0.37
-    name: "Electric Blanket"
-    
-apple_tv:
-  - host: 192.168.0.24
-    login_id: !secret apple_tv_login
-  - host: 192.168.0.32
-    login_id: !secret apple_tv_login
 
 hue:
   bridges:
