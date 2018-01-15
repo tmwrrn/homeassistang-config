@@ -7,4 +7,9 @@
   entities:
     light.lamp:
       state: on
-      brightness: 127.5
+      brightness: 255
+      color_name: blanchedalmond
+    light.main_light:
+      state: on
+      brightness: 255
+      color_name: blanchedalmond
