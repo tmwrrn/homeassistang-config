@@ -2,10 +2,10 @@
 - name: Home
   latitude: !secret latitude
   longitude: !secret longitude
-  radius: 100
+  radius: 250
   icon: mdi:home
   beacon:
-    uuid: B9407F30-F5F8-466E-AFF9-25556B57FE6D
+    uuid: !secret ibeacon
     major: 60042
     minor: 43814
 
