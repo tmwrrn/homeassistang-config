@@ -1,64 +1,38 @@
-group.all_devices:
-  homebridge_hidden: true
-group.all_lights:
-  homebridge_hidden: true
-group.all_remotes:
-  homebridge_hidden: true
-group.all_switches:
-  homebridge_hidden: true
-device_tracker.tom:
-  homebridge_hidden: true
-
 #hallway
   light.stairs:
-    homebridge_hidden: true
     hidden: true
   light.lightstrip:
-    homebridge_hidden: true
     icon: mdi:white-balance-iridescent
   
 #kitchen
   media_player.kitchen:
-    homebridge_hidden: true
     icon: mdi:speaker-wireless
   
 #living room
-  remote.apple_tv_2:
-    homebridge_hidden: true
-  media_player.apple_tv:
+  media_player.toms_apple_tv_back:
     friendly_name: Apple TV (Living Room)
-    homebridge_hidden: true
     icon: mdi:apple
   media_player.kd43xd8088:
-    homebridge_hidden: true
     icon: mdi:television
-  media_player.soundbar:
-    homebridge_hidden: true
+    friendly_name: Sony Bravia TV
   media_player.living_room_speaker:
-    homebridge_hidden: true
     icon: mdi:speaker-wireless
     
 #bedroom
   light.lamp:
-    homebridge_hidden: true
     icon: mdi:lamp
   light.main_light:
-    homebridge_hidden: true
     icon: mdi:ceiling-light
   light.bedroom:
-    homebridge_hidden: true
     hidden: true
   light.bedroom_2:
-    homebridge_hidden: true
     hidden: true
   media_player.bedroom_speaker:
-    homebridge_hidden: true
     icon: mdi:speaker-wireless
-  remote.apple_tv:
-    homebridge_hidden: true
-  media_player.apple_tv_2:
+  media_player.toms_apple_tv_room:
     friendly_name: Apple TV (Room)
-    homebridge_hidden: true
     icon: mdi:apple
   switch.electric_blanket:
     icon: mdi:hotel
+    friendly_name: Electric Blanket
+    homebridge_visible: true
