@@ -24,6 +24,7 @@ bedroom:
     - light.main_light
     - light.bedroom
     - light.bedroom_2
+    - light.hue_lightstrip_plus_1
     - media_player.bedroom_speaker
     - media_player.toms_apple_tv_room
     - switch.electric_blanket
