@@ -2,14 +2,16 @@
   entities:
     light.main_light: off
     light.lamp: off
+    light.hue_lightstrip_plus_1:
+      state: on
+      brightness: 127
+      effect: colorloop
+      transition: 5
 
 - name: Evening_TV_paused
   entities:
     light.lamp:
       state: on
-      brightness: 255
-      color_name: blanchedalmond
-    light.main_light:
-      state: on
-      brightness: 255
-      color_name: blanchedalmond
+      brightness: 254
+      color_temp: 401
+    light.hue_lightstrip_plus_1: off
