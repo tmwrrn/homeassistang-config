@@ -27,6 +27,8 @@
     hidden: true
   light.bedroom_2:
     hidden: true
+  light.hue_lightstrip_plus_1:
+    icon: mdi:white-balance-iridescent
   media_player.bedroom_speaker:
     icon: mdi:speaker-wireless
   media_player.toms_apple_tv_room:
