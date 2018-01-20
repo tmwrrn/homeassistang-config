@@ -2,11 +2,11 @@
   entities:
     light.main_light: off
     light.lamp: off
-    light.hue_lightstrip_plus_1:
+    light.tv_lightstrip:
       state: on
-      brightness: 127
+      brightness: 175
       effect: colorloop
-      transition: 5
+      transition: 30
 
 - name: Evening_TV_paused
   entities:
@@ -14,4 +14,4 @@
       state: on
       brightness: 254
       color_temp: 401
-    light.hue_lightstrip_plus_1: off
+    light.tv_lightstrip: off
