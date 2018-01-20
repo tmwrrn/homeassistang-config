@@ -24,10 +24,10 @@ bedroom:
     - light.main_light
     - light.bedroom
     - light.bedroom_2
-    - light.hue_lightstrip_plus_1
+    - light.tv_lightstrip
     - media_player.bedroom_speaker
     - media_player.toms_apple_tv_room
-    - switch.electric_blanket
+    - switch.tplink_switch
     
 kitchen:
   name: Kitchen
