@@ -27,14 +27,14 @@
     hidden: true
   light.bedroom_2:
     hidden: true
-  light.hue_lightstrip_plus_1:
+  light.tv_lightstrip:
     icon: mdi:white-balance-iridescent
   media_player.bedroom_speaker:
     icon: mdi:speaker-wireless
   media_player.toms_apple_tv_room:
     friendly_name: Apple TV (Room)
     icon: mdi:apple
-  switch.electric_blanket:
+  switch.tplink_switch:
     icon: mdi:hotel
     friendly_name: Electric Blanket
     homebridge_visible: true
