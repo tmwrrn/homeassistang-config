@@ -6,7 +6,7 @@
       state: on
       brightness: 175
       effect: colorloop
-      transition: 30
+      transition: 5
 
 - name: Evening_TV_paused
   entities:
