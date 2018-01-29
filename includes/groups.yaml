@@ -27,7 +27,7 @@ bedroom:
     - light.tv_lightstrip
     - media_player.bedroom_speaker
     - media_player.toms_apple_tv_room
-    - switch.tplink_switch
+    - switch.electric_blanket
     
 kitchen:
   name: Kitchen
