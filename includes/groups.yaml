@@ -45,7 +45,12 @@ weather:
   name: Weather
   view: no
   entities:
-    - weather.dark_sky
+    - weather.dark_sky_temperature
+    - weather.dark_sky_humidity
+    - weather.dark_sky_pressure
+    - weather.dark_sky_wind_speed
+    - weather.dark_sky_hourly_summary
+    - weather.dark_sky_daily_summary
     
 family:
   name: Family Members
