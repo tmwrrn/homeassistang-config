@@ -41,6 +41,12 @@ hallway:
   entities:
     - light.lightstrip
     
+weather:
+  name: Weather
+  view: no
+  entities:
+    - weather.dark_sky
+    
 family:
   name: Family Members
   view: no
