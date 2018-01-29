@@ -34,7 +34,7 @@
   media_player.toms_apple_tv_room:
     friendly_name: Apple TV (Room)
     icon: mdi:apple
-  switch.tplink_switch:
+  switch.electric_blanket:
     icon: mdi:hotel
     friendly_name: Electric Blanket
     homebridge_visible: true
