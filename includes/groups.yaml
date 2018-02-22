@@ -5,7 +5,9 @@ default_view:
     - group.bedroom
     - group.hallway
     - group.kitchen
+    - group.weather
     - group.family
+    - group.speedtest
 
 living:
   name: Living room
@@ -26,7 +28,7 @@ bedroom:
     - light.bedroom_2
     - light.tv_lightstrip
     - media_player.bedroom_speaker
-    - media_player.toms_apple_tv_room
+    - media_player.bedroom
     - switch.electric_blanket
     
 kitchen:
@@ -40,17 +42,25 @@ hallway:
   view: no
   entities:
     - light.lightstrip
-    
+
+speedtest:
+  name: Internet Speed
+  view: no
+  entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+    - sensor.speedtest_ping
+
 weather:
   name: Weather
   view: no
   entities:
-    - weather.dark_sky_temperature
-    - weather.dark_sky_humidity
-    - weather.dark_sky_pressure
-    - weather.dark_sky_wind_speed
-    - weather.dark_sky_hourly_summary
-    - weather.dark_sky_daily_summary
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_daily_high_temperature
+    - sensor.dark_sky_daily_low_temperature
+    - sensor.dark_sky_humidity
+    - sensor.dark_sky_precip_probability
     
 family:
   name: Family Members
