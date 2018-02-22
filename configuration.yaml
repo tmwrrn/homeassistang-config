@@ -94,32 +94,24 @@ hue:
       filename: phue2.conf
       allow_hue_groups: false
       
-weather:
+sensor:
   - platform: darksky
     api_key: !secret darksky_api_key
     units: uk2
     monitored_conditions:
       - summary
-      - icon
-      - precip_type
-      - precip_intensity
-      - precip_probability
       - temperature
-      - apparent_temperature
-      - dew_point
-      - wind_speed
-      - wind_bearing
-      - cloud_cover
-      - humidity
-      - pressure
-      - visibility
-      - hourly_summary
-      - daily_summary
-      - temperature_max
       - temperature_min
-      - apparent_temperature_max
-      - apparent_temperature_min
-      - precip_intensity_max  
+      - temperature_max
+      - humidity
+      - precip_probability
+      - daily_summary
+      - icon
+  - platform: speedtest
+    monitored_conditions:
+      - ping
+      - download
+      - upload
   
 mqtt:
   embedded:
