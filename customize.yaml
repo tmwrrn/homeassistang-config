@@ -31,10 +31,34 @@
     icon: mdi:white-balance-iridescent
   media_player.bedroom_speaker:
     icon: mdi:speaker-wireless
-  media_player.toms_apple_tv_room:
+  media_player.bedroom:
     friendly_name: Apple TV (Room)
     icon: mdi:apple
   switch.electric_blanket:
     icon: mdi:hotel
     friendly_name: Electric Blanket
     homebridge_visible: true
+    
+#weather
+  sensor.dark_sky_daily_high_temperature:
+    friendly_name: High Temperature
+  sensor.dark_sky_daily_low_temperature:
+    friendly_name: Low Temperature
+  sensor.dark_sky_humidity:
+    friendly_name: Humidity
+  sensor.dark_sky_precip_probability:
+    friendly_name: Precipitation %
+  sensor.dark_sky_summary:
+    friendly_name: Summary
+  sensor.dark_sky_temperature:
+    friendly_name: Current Temperature
+    
+#speedtest
+  sensor.speedtest:
+    icon: mdi:speedometer
+  sensor.speedtest_download:
+    friendly_name: Download
+  sensor.speedtest_upload:
+    friendly_name: Upload
+  sensor.speedtest_ping:
+    friendly_name: Ping
