@@ -78,19 +78,20 @@ panel_iframe:
 ios:
 
 device_tracker:
-  - platform: owntracks
-    max_gps_accuracy: 200
+  - platform: google_maps
+    username: !secret tom_homeassistant_email
+    password: !secret tom_homeassistant_email_password
 
 switch:
   - platform: tplink
-    host: 192.168.0.37
+    host: 192.168.1.37
 
 hue:
   bridges:
-    - host: 192.168.0.29
+    - host: 192.168.1.4
       filename: phue.conf
       allow_hue_groups: false
-    - host: 192.168.0.12
+    - host: 192.168.1.193
       filename: phue2.conf
       allow_hue_groups: false
       
@@ -108,6 +109,12 @@ sensor:
       - daily_summary
       - icon
   - platform: speedtest
+    minute: 30
+    hour:
+      - 0
+      - 6
+      - 12
+      - 18
     monitored_conditions:
       - ping
       - download
