@@ -1,12 +1,12 @@
 default_view:
   view: yes
   entities:
+    - group.family
     - group.living
     - group.bedroom
     - group.hallway
     - group.kitchen
     - group.weather
-    - group.family
     - group.speedtest
 
 living:
@@ -27,8 +27,9 @@ bedroom:
     - light.bedroom
     - light.bedroom_2
     - light.tv_lightstrip
-    - media_player.bedroom_speaker
-    - media_player.bedroom
+    - light.hue_white_lamp_1
+    - media_player.bedroom_speaker_4
+    - media_player.bedroom_4
     - switch.electric_blanket
     
 kitchen:
@@ -66,6 +67,6 @@ family:
   name: Family Members
   view: no
   entities:
-    - device_tracker.tom
     - device_tracker.andy
     - device_tracker.bev
+    - device_tracker.google_maps_114551646237755344164
