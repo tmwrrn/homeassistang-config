@@ -29,9 +29,11 @@
     hidden: true
   light.tv_lightstrip:
     icon: mdi:white-balance-iridescent
-  media_player.bedroom_speaker:
+  light.hue_white_lamp_1:
+    icon: mdi-spotlight
+  media_player.bedroom_speaker_4:
     icon: mdi:speaker-wireless
-  media_player.bedroom:
+  media_player.bedroom_4:
     friendly_name: Apple TV (Room)
     icon: mdi:apple
   switch.electric_blanket:
@@ -62,3 +64,7 @@
     friendly_name: Upload
   sensor.speedtest_ping:
     friendly_name: Ping
+    
+#devices
+  device_tracker.google_maps_114551646237755344164:
+    friendly_name: Tom
