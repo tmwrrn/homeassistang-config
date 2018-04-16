@@ -2,6 +2,7 @@
   entities:
     light.main_light: off
     light.lamp: off
+    light.hue_white_lamp_1: off
     light.tv_lightstrip:
       state: on
       brightness: 175
